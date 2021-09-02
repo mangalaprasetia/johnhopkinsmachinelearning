@@ -1,0 +1,4 @@
+library(leaflet)
+leaflet() %>% 
+    addTiles() %>%
+    addMarkers(lat = -37.932460, lng = 145.065190, popup = "House")
